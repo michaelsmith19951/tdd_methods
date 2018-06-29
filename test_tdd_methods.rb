@@ -22,5 +22,9 @@ class TestTddMethods < Minitest::Test
 	def test_if_string_is_class
 		assert_equal(String, string_clear().class)
 	end	
+
+	def test_if_letter_is_deleted
+		assert_equal("Mined Minds", string_clear)
+	end
 end
 	
