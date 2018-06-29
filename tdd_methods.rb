@@ -1,6 +1,7 @@
 # First function for array.first method
 	def array_first()
 	my_array = [1, 2, 3, 4, 5]
+	my_array[0] = [5]
  	end
 		
 # end

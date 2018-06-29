@@ -13,6 +13,10 @@ class TestTddMethods < Minitest::Test
 		assert_equal(Array, array_first().class)
 	end
 
+	def test_if_first_item_in_array_is_1
+		assert_equal(Array, array_first)
+	end
+
 	# def test_if_hash_is_class
 	# 	assert_equal(Hash, hash_clear().class)
 	# end
