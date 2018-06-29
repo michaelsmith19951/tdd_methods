@@ -1,10 +1,12 @@
 # First function for array.first method
 	def array_first()
+	first_array = []	
 	my_array = [1, 2, 3, 4, 5]
-	my_array[0] = [5]
+	# my_array[0] = [1]
+	first_array << my_array[0]
+	first_array
  	end
 		
-# end
 
 # Second function for hash.clear method
 # def hash_clear()

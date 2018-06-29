@@ -14,7 +14,7 @@ class TestTddMethods < Minitest::Test
 	end
 
 	def test_if_first_item_in_array_is_1
-		assert_equal(Array, array_first)
+		assert_equal([1], array_first)
 	end
 
 	# def test_if_hash_is_class
