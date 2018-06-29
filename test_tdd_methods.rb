@@ -28,7 +28,7 @@ class TestTddMethods < Minitest::Test
 	# end
 
 		def test_if_letters_are_deleted
-		assert_equal("ined inds", string_clear)
+		assert_equal("ined ind", string_clear)
 	end
 end
 	
