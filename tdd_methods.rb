@@ -20,7 +20,7 @@
 # Third function for string.clear method
 def string_clear()
 	my_string = "Mined Minds"
-	my_string.delete! "Ms"
+	my_string.delete! "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	my_string
 	end
 
