@@ -26,7 +26,7 @@ class TestTddMethods < Minitest::Test
 	# end
 
 	def test_if_hash_is_cleared
-		assert_equal("This is a hash", hash_clear)
+		assert_equal("   ", hash_clear)
 	end
 
 end
