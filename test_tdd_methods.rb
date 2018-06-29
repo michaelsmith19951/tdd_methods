@@ -32,7 +32,7 @@ class TestTddMethods < Minitest::Test
 	# end
 
 		def test_if_string_is_cleared
-		assert_equal("M", string_clear)
+		assert_equal(" ", string_clear)
 	end
 end
 	
