@@ -8,10 +8,10 @@ require_relative "tdd_methods.rb"
 class TestTddMethods < Minitest::Test
 
 # Functions for each test
-	# def test_if_first_item_in_array_is_blue
-		# my_arr = ["blue", "red", "yellow", "green", "orange"]
-		# assert_equal(5, array_first(my_arr))
-	# end
+	
+	def test_if_array_is_class
+		assert_equal(String, array_first().class)
+	end
 
 	def test_if_hash_is_class
 		assert_equal(String, hash_clear().class)
@@ -43,8 +43,8 @@ end
 	# 	assert_equal("ined ind", string_clear)
 	# end
 
-	# 	def test_if_string_is_cleared
-	# 	assert_equal(" ", string_clear)
-	# end
+		def test_if_string_is_cleared
+		assert_equal(" ", string_clear)
+	end
 
 	
