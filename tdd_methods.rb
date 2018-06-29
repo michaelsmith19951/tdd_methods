@@ -2,18 +2,17 @@
 	def array_first()
 	first_array = []	
 	my_array = [1, 2, 3, 4, 5]
-	# my_array[0] = [1]
 	first_array << my_array[0]
 	first_array
  	end
 		
 
 # Second function for hash.clear method
-# def hash_clear()
-# 	my_hash = "This is a hash"
-# 	my_hash.delete! "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# 	my_hash
-# end
+def hash_clear()
+	# my_hash = {"first" => 1, "second" => 2, "third" => 3}
+	# my_hash.delete ("first")
+	# my_hash
+end
 	
 
 # Third function for string.clear method

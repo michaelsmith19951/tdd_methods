@@ -17,12 +17,12 @@ class TestTddMethods < Minitest::Test
 		assert_equal([1], array_first)
 	end
 
-	# def test_if_hash_is_class
-	# 	assert_equal(Hash, hash_clear().class)
-	# end
+	def test_if_hash_is_class
+		assert_equal(Hash, hash_clear().class)
+	end
 
-	# def test_if_letter_is_deleted
-	# 	assert_equal("This is  hsh", hash_clear)
+	# def test_if_item_is_deleted
+	# 	assert_equal( hash_clear)
 	# end
 
 	# def test_if_letters_are_deleted
