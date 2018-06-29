@@ -24,7 +24,7 @@ class TestTddMethods < Minitest::Test
 	end	
 
 	def test_if_letter_is_deleted
-		assert_equal("Mined Minds", string_clear)
+		assert_equal("Mined Mind", string_clear)
 	end
 end
 	
