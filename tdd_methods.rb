@@ -11,7 +11,7 @@
 # Second function for hash.clear method
 def hash_clear()
 	my_hash = ("This is a hash")
-	my_hash.delete! "a"
+	my_hash.delete! "is"
 end
 	
 
