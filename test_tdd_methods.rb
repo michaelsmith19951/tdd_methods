@@ -16,6 +16,8 @@ class TestTddMethods < Minitest::Test
 	def test_if_hash_is_class
 		assert_equal(String, hash_clear().class)
 	end
+
+	
 end
 
 	def test_if_string_is_class
