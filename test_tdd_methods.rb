@@ -17,7 +17,10 @@ class TestTddMethods < Minitest::Test
 		assert_equal(String, hash_clear().class)
 	end
 
-	
+	def test_if_letter_is_deleted
+		assert_equal("This is hash", hash_clear)
+	end
+
 end
 
 	def test_if_string_is_class
