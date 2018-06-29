@@ -9,7 +9,7 @@
 
 # Second function for hash.clear method
 def hash_clear(myhash)
-	myhash = {"first" => 1, "second" => 2, "third" => 3}
+	my_hash = {"first" => 1, "second" => 2, "third" => 3}
 	{}
 end
 
@@ -23,3 +23,5 @@ def string_clear()
 
 
 
+# google how to iterate hash
+# delete each element
