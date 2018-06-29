@@ -21,8 +21,12 @@ class TestTddMethods < Minitest::Test
 	# 	assert_equal("This is  hsh", hash_clear)
 	# end
 
-	def test_if_letters_are_deleted
-		assert_equal("Th  a hah", hash_clear)
+	# def test_if_letters_are_deleted
+	# 	assert_equal("Th  a hah", hash_clear)
+	# end
+
+	def test_if_hash_is_cleared
+		assert_equal("This is a hash", hash_clear)
 	end
 
 end
@@ -39,8 +43,8 @@ end
 	# 	assert_equal("ined ind", string_clear)
 	# end
 
-		def test_if_string_is_cleared
-		assert_equal(" ", string_clear)
-	end
+	# 	def test_if_string_is_cleared
+	# 	assert_equal(" ", string_clear)
+	# end
 
 	
