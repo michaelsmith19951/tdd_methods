@@ -13,11 +13,10 @@ class TestTddMethods < Minitest::Test
 		# assert_equal(5, array_first(my_arr))
 	# end
 
-# 	def test_if_hash_is_clear
-# 		my_hash = ["age" => 24, "month_of_birth" => 06]
-# 		assert_equal(2, hash_clear(my_hash))
-# 	end
-# end
+	def test_if_hash_is_class
+		assert_equal(String, hash_clear().class)
+	end
+end
 
 	def test_if_string_is_class
 		assert_equal(String, string_clear().class)
@@ -34,5 +33,5 @@ class TestTddMethods < Minitest::Test
 		def test_if_string_is_cleared
 		assert_equal(" ", string_clear)
 	end
-end
+
 	

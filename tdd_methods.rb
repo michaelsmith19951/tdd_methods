@@ -9,12 +9,8 @@
 # end
 
 # Second function for hash.clear method
-# def hash_clear(my_hash)
-# 	my_hash.each do |item|
-# 		counter = counter + 1
-# 		my_hash = []
-# 	end
-# end
+def hash_clear()
+end
 	
 
 # Third function for string.clear method
