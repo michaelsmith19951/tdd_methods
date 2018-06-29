@@ -22,7 +22,7 @@ class TestTddMethods < Minitest::Test
 	# end
 
 	def test_if_letters_are_deleted
-		assert_equal("This is a hash", hash_clear)
+		assert_equal("Th  a hah", hash_clear)
 	end
 
 end
