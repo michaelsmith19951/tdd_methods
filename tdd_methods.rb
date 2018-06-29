@@ -18,8 +18,7 @@
 	
 
 # Third function for string.clear method
-def string_clear(my_string)
-		my_string.clear
+def string_clear()
 	end
 
 

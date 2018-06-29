@@ -19,9 +19,8 @@ class TestTddMethods < Minitest::Test
 # 	end
 # end
 
-	def test_if_string_is_clear
-		my_string = ""
-		assert_equal("", string_clear(my_string))
+	def test_if_string_is_class
+		assert_equal(String, string_clear().class)
 	end	
 end
 	
