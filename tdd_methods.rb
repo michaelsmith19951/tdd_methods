@@ -1,16 +1,16 @@
-# # First function for array.first method
+# First function for array.first method
 	def array_first()
-		
+	my_array = [1, 2, 3, 4, 5]
  	end
 		
-
 # end
 
 # Second function for hash.clear method
-def hash_clear()
-	my_hash = ("This is a hash")
-	my_hash.delete! "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-end
+# def hash_clear()
+# 	my_hash = "This is a hash"
+# 	my_hash.delete! "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# 	my_hash
+# end
 	
 
 # Third function for string.clear method

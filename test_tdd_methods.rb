@@ -10,12 +10,12 @@ class TestTddMethods < Minitest::Test
 # Functions for each test
 	
 	def test_if_array_is_class
-		assert_equal(String, array_first().class)
+		assert_equal(Array, array_first().class)
 	end
 
-	def test_if_hash_is_class
-		assert_equal(String, hash_clear().class)
-	end
+	# def test_if_hash_is_class
+	# 	assert_equal(Hash, hash_clear().class)
+	# end
 
 	# def test_if_letter_is_deleted
 	# 	assert_equal("This is  hsh", hash_clear)
@@ -25,9 +25,9 @@ class TestTddMethods < Minitest::Test
 	# 	assert_equal("Th  a hah", hash_clear)
 	# end
 
-	def test_if_hash_is_cleared
-		assert_equal("   ", hash_clear)
-	end
+	# def test_if_hash_is_cleared
+	# 	assert_equal("   ", hash_clear)
+	# end
 
 end
 
