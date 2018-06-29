@@ -9,9 +9,9 @@
 
 # Second function for hash.clear method
 def hash_clear()
-	# my_hash = {"first" => 1, "second" => 2, "third" => 3}
-	# my_hash.delete ("first")
-	# my_hash
+	my_hash = {"first" => 1, "second" => 2, "third" => 3}
+	my_hash.delete ("first")
+	my_hash
 end
 	
 
