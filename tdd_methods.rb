@@ -19,6 +19,7 @@
 
 # Third function for string.clear method
 def string_clear()
+	my_string = "Mined Minds"
 	end
 
 
