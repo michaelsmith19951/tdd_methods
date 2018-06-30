@@ -23,7 +23,7 @@ class TestTddMethods < Minitest::Test
 
 	def test_if_hash_is_cleared
 		my_hash = {"first" => 1, "second" => 2, "third" => 3}
-		assert_equal(0, hash_clear(my_hash))
+		assert_equal({}, hash_clear(my_hash))
 	end
 
 
