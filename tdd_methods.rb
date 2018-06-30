@@ -9,8 +9,12 @@
 
 # Second function for hash.clear method
 def hash_clear(myhash)
+	empty_hash = {}
 	my_hash = {"first" => 1, "second" => 2, "third" => 3}
-	{}
+	empty_hash < my_hash
+	empty_hash.delete "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+	empty_hash
+
 end
 
 # Third function for string.clear method
