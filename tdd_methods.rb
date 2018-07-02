@@ -11,17 +11,15 @@
 def hash_clear(myhash)
 	empty_hash = {}
 	my_hash = {"first" => 1, "second" => 2, "third" => 3}
-	empty_hash < my_hash
-	empty_hash.delete "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
-	empty_hash
+	my_hash = {}
 
 end
 
 # Third function for string.clear method
-def string_clear()
-	my_string = "Mined Minds"
+def string_clear(str)
+	my_string = str
 	my_string.delete! "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	my_string
+	my_string = ""
 	end
 
 
