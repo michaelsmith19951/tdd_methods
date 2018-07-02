@@ -17,9 +17,9 @@ class TestTddMethods < Minitest::Test
 		assert_equal([1], array_first)
 	end
 
-	# def test_if_hash_is_class
-	# 	assert_equal(Hash, hash_clear(myhash).class)
-	# end
+	def test_if_hash_is_class
+		assert_equal(Hash, hash_clear({}).class)
+	end
 
 	def test_if_hash_is_cleared
 		my_hash = {"first" => 1, "second" => 2, "third" => 3}
